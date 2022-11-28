@@ -34,10 +34,12 @@ main {
 }
 
 #linda {
+    -webkit-stroke-color: 1px #000;
+    -webkit-text-stroke: 0.2px #000;
     padding-top: 60px;
     font-family: garamond;
     font-size: 30px;
-    color: #00BFFF;
+    color: #517b8d;
 }
 
 #li2 {
@@ -120,14 +122,16 @@ main {
 button.slick-prev {
     font-size: 0px;
     border: none;
-    width: 25px;
-    height: 51px;
+    width: 100px;
+    height: 204px;
     z-index: 9;
     background-color: transparent;
-    background-image: url('../img/left-arrow.png');
+    background-image: url('../img/anterior.svg');
+    background-repeat: no-repeat;
     position: absolute;
-    top: 35%;
-    left: 0;
+    top: 43%;
+    left: 7%;
+    opacity: 0.6;
 }
 button.slick-prev:hover {
     cursor: pointer;
@@ -136,16 +140,50 @@ button.slick-prev:hover {
 button.slick-next {
     font-size: 0px;
     border: none;
-    width: 25px;
-    height: 51px;
+    width: 100px;
+    height: 204px;
     z-index: 9;
     background-color: transparent;
-    background-image: url('../img/email.png');
+    background-image: url('../img/proximo.svg');
+    background-repeat: no-repeat;
     position: absolute;
-    top: 35%;
-    right: 0;
+    top: 43%;
+    right: 7%;
+    opacity: 0.6;
+}
+
+.slider-initialized {
+    overflow: hidden;
 }
 
 button.slick-next:hover {
     cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 95%;
+}
+
+.slick-dots li {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #00bac6;
 }
