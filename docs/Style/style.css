@@ -122,7 +122,7 @@ main,
 }
 
 .img {
-    width: 980px;
+    height: 100%;
 }
 
 button.slick-prev {
