@@ -35,7 +35,7 @@ main,
 
 .logo {
     float: left;
-    padding-right: 40px;
+    padding-right: 10%;
     padding-top: 3px;
 }
 
@@ -222,7 +222,7 @@ button.slick-next:hover {
     padding-right: 1rem;
     width: 33.3%;
     float: left;
-    position:relative;
+    position: relative;
 }
 
 .col-3 p {
@@ -236,14 +236,16 @@ button.slick-next:hover {
 }
 
 .bloco-imagem {
-    height: 350px;
+    display: inline-block;
+    height: 300px;
     border: 1px solid #c5c5c5;
     padding-top: 15px;
-    padding-bottom: 5px;
-    margin-left: 20px;
+    padding-bottom: 15px;
+    margin-left: 80px;
 }
 
-.bloco-imagem b, p {
+.bloco-imagem b,
+p {
     text-align: left;
 }
 
@@ -315,7 +317,13 @@ h3 {
 .footer {
     background-image: url('../img/footer.png');
     color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+/* .footer div { */
+/* padding-left: ; */
+/* } */
 
 .footer-2 {
     background-image: url('../img/footer2.png');
@@ -327,10 +335,6 @@ h3 {
 .footer p {
     width: 90%;
     text-align: left;
-}
-
-.footer .m5 {
-font-size: 0.7rem;
 }
 
 .footer-2 p {
@@ -348,7 +352,7 @@ font-size: 0.7rem;
     display: inline-block;
     background-image: url('../img/clock.png');
     background-repeat: no-repeat;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 .local:before,
@@ -359,7 +363,7 @@ font-size: 0.7rem;
     height: 24px;
     display: inline-block;
     background-repeat: no-repeat;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 .local:before {
@@ -385,11 +389,19 @@ font-size: 0.7rem;
     color: #8b8b8b;
 }
 
-#dev a {    
+#dev a {
     text-decoration: none;
     color: #00bac6;
 }
 
-#dev a:hover {    
+#dev a:hover {
     color: #7a297a;
+}
+
+.m5 {
+    padding: 10px;
+}
+
+.m5 img {
+    top: 15px;
 }
