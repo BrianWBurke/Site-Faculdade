@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 }
 
 html {
@@ -29,21 +35,24 @@ main,
 .content {
     margin: 0 auto;
     width: 980px;
-    /* width: 100%; */
+    /* width: 90%; -------------------------------------------------------------*/
     position: relative;
 }
 
 .logo {
     float: left;
-    padding-right: 10%;
+    padding-right: 8%;
     padding-top: 3px;
 }
 
 #linda {
-    -webkit-stroke-color: 1px #000;
-    -webkit-text-stroke: 0.2px #000;
-    padding-top: 60px;
-    font-family: garamond;
+    padding-top: 45px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
     font-size: 30px;
     color: #517b8d;
 }
@@ -286,7 +295,7 @@ h3 {
 
 .col-4 {
     float: left;
-    width: 25%;
+    width: 30%;
     text-align: center;
 }
 
@@ -306,8 +315,8 @@ h3 {
     height: 170px;
 }
 
-.bloco-logos img {
-    margin-top: 50px;
+.bloco-logos img { 
+    margin-top: 30px;
 }
 
 .footer h3 {
@@ -321,16 +330,11 @@ h3 {
     padding-bottom: 30px;
 }
 
-/* .footer div { */
-/* padding-left: ; */
-/* } */
-
 .footer-2 {
     background-image: url('../img/footer2.png');
     color: #c1c1c1;
     height: 90px;
 }
-
 
 .footer p {
     width: 90%;
@@ -368,15 +372,30 @@ h3 {
 
 .local:before {
     background-image: url('../img/local.png');
+    height: 20px;
 }
 
 
 .emailico:before {
     background-image: url('../img/email.png');
+    height: 14px;
 }
 
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
+    height: 14px;
+}
+
+#parceiros {
+    padding-top: 15px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+#parceiros h1 {
+    color: #646464;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .text-1 {
@@ -389,19 +408,23 @@ h3 {
     color: #8b8b8b;
 }
 
-#dev a {
-    text-decoration: none;
-    color: #00bac6;
+
+#dev a, .emailico a, .telefoneico a, .local a {
+    color: #ffffff;
 }
 
-#dev a:hover {
-    color: #7a297a;
+#dev a:hover, .emailico a:hover, .telefoneico a:hover, .local a:hover {
+    color: #00bac6;
 }
 
 .m5 {
     padding: 10px;
 }
 
-.m5 img {
-    top: 15px;
+#m4 {
+    font-size: 13px;
+}
+
+.content h1 {
+    text-align: center;
 }
