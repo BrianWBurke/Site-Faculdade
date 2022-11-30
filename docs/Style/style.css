@@ -429,3 +429,34 @@ h3 {
 .content h1 {
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    #linda {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 20%;
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+    }
+
+    main, .content {
+        width: 40%;
+    }
+
+    .texto-destaque h1 {
+        font-size: 20px;
+    }
+
+    .col-3 {
+        /* padding-left: 1rem; */
+        /* padding-right: 1rem; */
+        /* display:grid; */
+        width: 50%;
+        /* float: left; */
+        /* position: relative; */
+    }
+}
