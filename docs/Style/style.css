@@ -370,6 +370,14 @@ h3 {
     padding-bottom: 3rem;
 }
 
+.text-2 {
+    padding-bottom: 6rem;
+}
+
+#doar:hover {
+    color: #00bac6;
+}
+
 #dev {
     padding-top: 2rem;
     text-align: center;
